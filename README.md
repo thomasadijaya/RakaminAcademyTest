@@ -1,1 +1,1 @@
-# RakaminAcademyTest
+# Frontend automation tests using Cypress
