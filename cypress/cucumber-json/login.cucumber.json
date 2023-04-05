@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;user-are-able-to-login-using-valid-credential",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User are able to login using valid credential",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User are in the login page",
+            "result": {
+              "status": "passed",
+              "duration": 2868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the valid email 'kutukucing16@gmail.com' and password 'kutukucing123'",
+            "result": {
+              "status": "passed",
+              "duration": 857000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User are successfully login",
+            "result": {
+              "status": "passed",
+              "duration": 2068000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;user-cannot-login-using-invalid-password",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User cannot login using invalid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User are in the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter the valid email 'kutukucing16@gmail.com'",
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 12,
+            "name": "User enter the invalid password 'kutukucing1234567'",
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User are failed to login",
+            "result": {
+              "status": "passed",
+              "duration": 651000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
